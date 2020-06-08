@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+:root {
+  --primary-color: #c80125;
+  --bg-dark: #171717;
+  --max-width: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+/* utility */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.s-heading {
+  font-size: 1.3rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.l-heading {
+  font-size: 3rem;
+  line-height: 1.2;
+  height: 109px;
+}
+
+.showcase-room-rates {
+  color: #fff;
+  background-color: black;
+  position: relative;
+  height: 100vh;
+}
+
+.showcase-room-rates::before {
+  content: "";
+  background-image: url("../images/roomsrates/showcase-room.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.4;
+}
+
+.showcase-room-rates .showcase-container {
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+}
+
+.showcase-room-rates .showcase-content-room-rates {
+  z-index: 1;
+  padding-bottom: 7rem;
+}
+
+/* Section Rooms Info */
+.room-section {
+  background-color: black;
+}
+
+.room-section .room-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.room-section .room-grid-item {
+  background-color: var(--bg-dark);
+  padding: 2rem 1.6rem;
+  text-align: center;
+  color: #fff;
+}
+
+.room-grid-item p {
+  font-weight: normal;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.room-grid-item p span {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.room-grid-item .info {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 1rem;
+}
+
+.book-btn {
+  display: inline-block;
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  margin: 40px auto;
+  font-size: 1.5rem;
+}
+
+.book-btn img {
+  margin-left: 1.25rem;
+  margin-right: 1rem;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: relative;
+  top: 7px;
+}
