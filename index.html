@@ -11,27 +11,29 @@
 
     <body>
 		<!--beginning of nav bar-->
-		<nav class="transparent">
-				<div class="nav-wrapper">
-					<a href="#" class="brand-logo">LM continental</a>
-						<ul id="nav-mobile" class="right hide-on-med-and-down">
-							<li><a href="">Facilities</a></li>
-							<li><a href="">Rooms</a></li>
-							<li><a href="">Offers</a></li>
-							<li><a href="">About</a></li>
-							<li><a href="">Contact us</a></li>
-							<a class="waves-effect waves-light btn" id="book_now_button" href="#booking">BOOK NOW</a>
-						</ul>
-				</div>
-		  </nav><!--end of nav bar-->
+		<div class="slogan_header">
+			<nav class="transparent">
+					<div class="nav-wrapper">
+						<a href="#" class="brand-logo">LM continental</a>
+							<ul id="nav-mobile" class="right hide-on-med-and-down">
+								<li><a href="">Facilities</a></li>
+								<li><a href="">Rooms</a></li>
+								<li><a href="">Offers</a></li>
+								<li><a href="">About</a></li>
+								<li><a href="">Contact us</a></li>
+								<a class="waves-effect waves-light btn" id="book_now_button" href="#booking">BOOK NOW</a>
+							</ul>
+					</div>
+			</nav><!--end of nav bar-->
 		
- <!-- Display Slogan **(FIx this to required possition)-->
-		  <header class="slogan_header">
-				<div id="slogan">
-					<h1 class="l-heading">FEEL LIKE ROYALTY</h1>
-					<p class="lead"><span>HAVING A LUXURY STAY AT ITS CLIMAX</span></p>	
-				</div>
-		  </header><br/>
+			<!-- Display Slogan -->
+			<header >
+					<div id="slogan">
+						<h1 >FEEL LIKE ROYALTY</h1>
+						<h7>HAVING A LUXURY STAY AT ITS CLIMAX</h7>	
+					</div>
+			</header><br/>
+		</div>
 		  <!--Welcome corner-->
 		  <div class="row hotel_details">
 				<div class="col s6 slideshow-container"  id="slideshow1">
@@ -60,8 +62,8 @@
 				</div>
 		  </div>
 
-<!--Slogan Showcase-->
-	<div class="slideshow-container">
+      <!--Beds Showcase-->
+	    <div class="slideshow-container" >
 
 			<div class="mySlides2 fade"><img src="images/bed1.jpg" style="width:100%"></div>
 			<div class="mySlides2 fade"><img src="images/bed2.jpg" style="width:100%"></div>
@@ -75,21 +77,22 @@
 				<span class="dot" onclick="currentSlide(2, 1)"></span> 
 				<span class="dot" onclick="currentSlide(3, 2)"></span> 
 			</div>
-	</div><br><!--end of slogan showcase-->
 
-	<!--begining of Premuim features-->
-	<div align="center">
-			<p>Have a Taste of our</p>
-			<h4>Premium Features</h4>
-	</div>
+		</div><br><!--end of beds showcase-->
 
-		  <!--FILL IN CAROUSEL IMAGES-->
-		  <div>
+		<!--begining of Premuim features-->
+		<div align="center">
+				<p>Have a Taste of our</p>
+				<h4>Premium Features</h4>
+		</div>
 
-		  </div><!--end of premium features-->
+		<!--FILL IN CAROUSEL IMAGES-->
+		<div>
 
-		  <!--FAQs-->
-		  <div class="container" align="center">
+		</div><!--end of premium features-->
+
+		<!--FAQs-->
+		<div class="container" align="center">
 				<h4>Frequently Asked Questions</h4><br/>
 				<button type="button" class="collapsible">Is there constant supply of internet service</button>
 				<div class="content">
@@ -103,28 +106,28 @@
 				<div class="content">
 					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, doloribus totam non laborum illo rem delectus voluptas eius hic deleniti libero assumenda corrupti officia minima, et veritatis vel, quidem dolorum.</p>
 				</div>
-		 </div><br/>
+		</div><br/>
 
 		<!--Ask a question-->	 
-	
+		
 		<h4 align="center">Ask Your Question</h4>
 		<div class="container">
 				<form action="">
-					  <label for="fname">Full Name</label>
-					  <input type="text" id="form_container" name="firstname" placeholder="Starting with surname eg allbright Hazel">
-				  
-					  <label for="email">Email</label>
-					  <input type="email" id="form_container" name="email" placeholder="example@gmail.com">
-				
-					  <label for="question">Question</label>
-					  <textarea id="form_container" name="question" placeholder="Type question here" style="height:100px"></textarea>
-				  
-					  <button class="waves-effect waves-light btn" type="submit" id="book_now_button" name="" style="width:100%;">Send</button>
+					<label for="fname">Full Name</label>
+					<input type="text" id="form_container" name="firstname" placeholder="Starting with surname eg allbright Hazel">
+					
+					<label for="email">Email</label>
+					<input type="email" id="form_container" name="email" placeholder="example@gmail.com">
+					
+					<label for="question">Question</label>
+					<textarea id="form_container" name="question" placeholder="Type question here" style="height:100px"></textarea>
+					
+					<button class="waves-effect waves-light btn" type="submit" id="book_now_button" name="" style="width:100%;">Send</button>
 				</form>
 		</div>
-	<!--booking-->
+		<!--booking-->
 		<div id="booking">
-				<img class="responsive-img" src="images/bookings.jpg" >
+				<img class="responsive-img"  src="images/bookings.jpg" >
 				<div class="centered">BE TREATED LIKE ROYALTY<br/>
 					<span>Have an unforgettable experience</span><br/>
 					<a class="waves-effect waves-light btn" id="book_now_button" href="#booking">BOOK NOW</a>
