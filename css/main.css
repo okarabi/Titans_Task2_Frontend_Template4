@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
   --primary-color: #c80125;
@@ -273,3 +274,4 @@ input[type=text], select, textarea {
     bottom: 8px;
     right: 50%;
 }
+
