@@ -14,6 +14,8 @@
   }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -22,10 +24,10 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(0, 0, 0);
-    
-}
+  }
 
 nav.transparent {
+    padding: 0 2rem;
     width: 100%;
     height: 62px;
     position: absolute;
@@ -64,7 +66,8 @@ input[type=text], select, textarea {
 .slogan_header {
     background-image: url("../images/landing.png");
     background-blend-mode: color; 
-    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
      
 }
 
