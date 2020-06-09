@@ -1,13 +1,29 @@
-*{
+/* *{
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-}
+} */
 html{
   scroll-behavior:smooth;
 }
- header{
+
+.slogan_header {
+    background-image: url("../images/gym1.jpg");
+    background-blend-mode: color;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+
+}
+.lead{
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.l-heading{
+margin-left: 30px;
+margin-top: -5px;
+}
+ /* header{
     background-image: url("../images/background.jpg");
     background-size: cover;
     color: white;
@@ -25,7 +41,7 @@ nav {
     background-color: red  ;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 
 
